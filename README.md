@@ -1,7 +1,5 @@
 # Barbell-Trajectory-Tracking-for-Performance-Analysis-During-Snatch-Movement-in-Weightlifting
 
-# 🏋️ Robust Barbell Trajectory Tracking and Classification for Weightlifting Analysis
-
 **This project leverages computer vision and machine learning to track barbell motion, classify trajectory types, and extract kinematic parameters to assist athletes and coaches in performance analysis and injury prevention.**
 
 ---
