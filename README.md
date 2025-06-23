@@ -48,8 +48,7 @@ Key innovations include:
 - Classify different trajectory types accurately
 - Extract meaningful kinematic features
 - Develop a performance metric for technique evaluation
-- Facilitate real-time, accessible analysis via mobile deployment
-
+- 
 ---
 
 ## Dataset
@@ -103,6 +102,21 @@ Key innovations include:
 - Achieved approximately **70% accuracy** in trajectory classification.
 - **MedianFlow tracker** provided stable tracking performance even in the presence of occlusion and speed variations.
 - Successfully extracted **kinematic parameters** (e.g., height, velocity, displacement) to enable performance assessment.
+
+  ### Classification and Barbell Kinematic Parameters Validation
+
+| Video | Type Given | Type Predicted | Height of Athlete (cm) | Ymax (cm) | X1 (cm) | Bar Drop (cm) | Score (4) |
+|--------|------------|----------------|-----------------------|-----------|---------|---------------|-----------|
+| 1      | 1          | 2              | 165                   | 129       | 5       | 8             | NA        |
+| 2      | 2          | 1              | 170                   | 133.5     | 1.5     | 9.5           | NA        |
+| 3      | 3          | 3              | 174                   | 137       | 3.5     | 14            | 3         |
+| 4      | 3          | 3              | 179                   | 139.5     | 8       | 4.5           | 4         |
+| 5      | 3          | 3              | 185                   | 139.5     | 11      | 6             | 3         |
+| 6      | 4          | –              | –                     | –         | –       | –             | NA        |
+| 7      | 2          | 2              | 170                   | 133.5     | 3       | 6.5           | 3         |
+| 8      | 1          | 1              | 177                   | 139       | 5       | 6             | 4         |
+| 9      | 1          | 1              | 178                   | 136       | 3.5     | 7             | 4         |
+| 10     | 1          | 1              | 162                   | 126       | 5.5     | 8.5           | 4         |
 
 ---
 
