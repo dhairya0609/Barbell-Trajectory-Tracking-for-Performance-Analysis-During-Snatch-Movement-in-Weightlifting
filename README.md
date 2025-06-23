@@ -17,7 +17,6 @@
 - [Usage](#usage)
 - [Results and Evaluation](#results-and-evaluation)
 - [Limitations and Future Work](#limitations-and-future-work)
-- [Future Directions](#Future-Directions)
 ---
 
 ## Introduction
