@@ -14,7 +14,6 @@
 - [Dataset](#dataset)
 - [Methodology](#methodology)
 - [Tools and Dependencies](#tools-and-dependencies)
-- [Usage](#usage)
 - [Results and Evaluation](#results-and-evaluation)
 - [Limitations and Future Work](#limitations-and-future-work)
 ---
